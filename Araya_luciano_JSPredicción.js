@@ -6,7 +6,7 @@ function myBirthYearFunc(){
     function myBirthYearFunc(EntradaAñoNacimiento){
             console.log("Nací en " + EntradaAñoNacimiento);
         }
-// el console.log muesta naci en Entrada año nacimiento
+// el console.log muesta naci en 1980
 
 function add(num1, num2){
         console.log("¡Sumando números!");
@@ -15,7 +15,7 @@ function add(num1, num2){
         var sum = num1 + num2;
         console.log(sum);
     }
-    // el console.log imprime sumando numeros
-    // el console.log imprime num1
-    // el console.log imprime num2
-    // el console.log imprime sum30
+    // el console.log imprime ¡Sumando numeros!
+    // el console.log imprime 10
+    // el console.log imprime 20
+    // el console.log imprime 30
