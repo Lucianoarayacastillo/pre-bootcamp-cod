@@ -1,4 +1,6 @@
-function myBirthYearFunc(){
-        console.log("Nací en " + 1980);
+function createArray() {        
+        var newArray = [0,1,2,3,4,5];          
+        return newArray;        // agregó la sentencia return
     }
-// el console.log imprime naci en 1980
+    var needAnArray = createArray();        // ahora needAnArray es la variable que llama a createArray
+    
