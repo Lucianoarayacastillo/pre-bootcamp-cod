@@ -12,16 +12,16 @@
             document.onkeydown = function(e) {
                 console.log('e: ', e); 
                 console.log('e.keyCode: ', e.keyCode);
-                if (e.keyCode == 37) { // LEFT
+                if (e.keyCode == 37 && leftValue > 0) { // LEFT
                     leftValue = leftValue - 10;
                 }
-                else if (e.keyCode == 39) { // RIGHT
+                else if (e.keyCode == 39 && leftValue > 0) { // RIGHT
                     leftValue = leftValue + 10;         
                 }
-                else if (e.keyCode == 40) { // DOWN
+                else if (e.keyCode == 40 && topValue > 0) { // DOWN
                     topValue = topValue + 10;
                 }
-                else if (e.keyCode == 38){
+                else if (e.keyCode == 38 && topValue > 0){
                     topValue = topValue - 10
                 }
 
