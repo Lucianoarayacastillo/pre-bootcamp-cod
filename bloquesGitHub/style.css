@@ -1,0 +1,25 @@
+.octocat{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+img {
+    height: 400px;
+}
+.filas{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222;
+}
+
+.color3{
+    background-color: antiquewhite;
+}
+.color2{
+    background-color: fuchsia;
+
+}
+.color1{
+    background-color: aqua;
+}
